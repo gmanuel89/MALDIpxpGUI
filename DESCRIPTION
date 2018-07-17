@@ -1,0 +1,14 @@
+Package: MALDIpxpGUI
+Date: 2018-07-17
+Type: Package
+Title: A package to perform pixel-by-pixel classification of MALDI-MSI datasets
+Version: 0.9.0
+Author: Manuel Galli
+Maintainer: Manuel Galli <gallimanuel89@gmail.com>
+Description: The functions contained in the package allows to import and preprocess spectra, to train a set of classification algorithms (ensemble classification system) and to perform pixel-by-pixel classification of spectra of a MALDI-MSI dataset.
+    The package employs functions mainly from the MALDIquant, MALDIquantForeign and caret packages.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends: R (>= 3.3.3), MALDIquant, MALDIquantForeign, caret, e1071, stats, pROC, nnet, kernlab, MASS, klaR, pls, randomForest, lda, SparseM, stringi, tcltk, parallel, foreach, XML, doParallel
